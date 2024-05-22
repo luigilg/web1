@@ -1,1 +1,131 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>Cadastro do Agricultor</h1>
+    </div>
+    <div class="form">
+        <form action="" method="post">
+            <div class="container">
+                <div class="subtitulo">
+                    <h2>A) Identificação</h2>
+                    <h3>Titular/Produtor</h3>
+                </div>
+                <div class="colunas">
+                    <div class="coluna">
+                        <div class="input">
+                            <label for="">1) Nome: </label> <br>
+                            <input type="text">
+                        </div>
+                        <div class="input">
+                            <label for="">3) CPF:</label> <br>
+                            <input type="text" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ required>
+                        </div>
+                        <div class="input">
+                            <label for="">5) Apelido:</label> <br>
+                            <input type="text">
+                        </div>
+                        <div class="input">
+                            <label for="">7) RG:</label> <br>
+                            <input type="text" placeholder="!! Somente números">
+                        </div>
+                        <div class="input">
+                            <label for="">9) Município de Nascimento:</label> <br>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="coluna">
+                        <div class="input">
+                            <label for="">2) Sexo: </label> <br>
+                            <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                            <label for="masculino">M &nbsp; </label>
+                            <input type="radio" id="feminino" name="sexo" value="feminino" required>
+                            <label for="feminino">F </label>
+                        </div>
+                        <div class="input">
+                            <label for="">4) Nome da mãe:</label> <br>
+                            <input type="text">
+                        </div>
+                        <div class="input">
+                            <label for="">6) Data de Nascimento:</label> <br>
+                            <input type="date">
+                        </div>
+                        <div class="input">
+                            <label for="">8) UF do Órgão Emissor</label> <br>
+                            <input type="text">
+                        </div>
+                        <div class="input">
+                            <label for="">10) Escolaridade</label> <br>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr color="#0b838b">
+                <div class="subtitulo">
+                    <h3>Cônjuge</h3>
+                </div>
+                <div class="colunas">
+                    <div class="coluna">
+                        <div class="input">
+                            <label for="">1) Nome: </label> <br>
+                            <input type="text">
+                        </div>
+                        <div class="input">
+                            <label for="">3) CPF:</label> <br>
+                            <input type="text" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ required>
+                        </div>
+                        <div class="input">
+                            <label for="">5) Apelido:</label> <br>
+                            <input type="text">
+                        </div>
+                        <div class="input">
+                            <label for="">7) RG:</label> <br>
+                            <input type="text" placeholder="!! Somente números">
+                        </div>
+                        <div class="input">
+                            <label for="">9) Município de Nascimento:</label> <br>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="coluna">
+                        <div class="input">
+                            <label for="">2) Sexo: </label> <br>
+                            <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                            <label for="masculino">M &nbsp; </label>
+                            <input type="radio" id="feminino" name="sexo" value="feminino" required>
+                            <label for="feminino">F </label>
+                        </div>
+                        <div class="input">
+                            <label for="">4) Nome da mãe:</label> <br>
+                            <input type="text">
+                        </div>
+                        <div class="input">
+                            <label for="">6) Data de Nascimento:</label> <br>
+                            <input type="date">
+                        </div>
+                        <div class="input">
+                            <label for="">8) UF do Órgão Emissor</label> <br>
+                            <input type="text">
+                        </div>
+                        <div class="input">
+                            <label for="">10) Escolaridade</label> <br>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
