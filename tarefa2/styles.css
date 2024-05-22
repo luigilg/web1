@@ -1,1 +1,52 @@
+body{
+    font-family: Poppins;
+    padding-left: 30px;
+    padding-right: 40px;
+}
 
+h1{
+    font-size: 45px;
+    color: #0b838b;
+}
+
+.colunas{
+    display: flex;
+
+}
+.coluna{
+    width: 50%;
+}
+
+.input{
+    margin: 10px;
+}
+
+
+input[type=text]{
+    width: 80%;
+}
+
+input{
+    height: 1.5rem;
+    border: 1px solid #0b838b;
+    border-radius: 6px;
+    font-family: Poppins;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #0b838b;
+    box-shadow: 0 4px 10px rgba(11, 131, 139, 0.4);
+}
+
+.subtitulo{
+    width: 100%;
+}
+
+.container{
+    margin: 30px;
+    padding: 40px;
+    padding-top: 10px ;
+    border: 2px solid #0b838b;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(11, 131, 139, 0.7);
+}
